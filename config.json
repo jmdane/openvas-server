@@ -1,3 +1,55 @@
 {
-  "port": 3000
+  "port": 3000,
+  "scan_host_active_in_the_last_hours": 24,
+  "scan_times": [
+    {
+    "time": "01:00",
+    "type": "full_and_very_deep_ultimate"
+    },
+    {
+      "time": "12:00",
+      "type": "full_and_fast"
+    },
+    {
+      "time": "18:00",
+      "type": "full_and_fast"
+    }
+  ],
+  "scan_configs": [
+    {
+      "name" : "discovery",
+      "scanner_id" : "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id" : "8715c877-47a0-438d-98a3-27c7a6ab2196"
+    },
+    {
+      "name" : "full_and_fast",
+      "scanner_id" : "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id" : "daba56c8-73ec-11df-a475-002264764cea"
+    },
+    {
+      "name": "full_and_fast_ultimate",
+      "scanner_id": "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id": "698f691e-7489-11df-9d8c-002264764cea"
+    },
+    {
+      "name": "full_and_very_deep",
+      "scanner_id": "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id": "708f25c4-7489-11df-8094-002264764cea"
+    },
+    {
+      "name": "full_and_very_deep_ultimate",
+      "scanner_id": "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id": "74db13d6-7489-11df-91b9-002264764cea"
+    },
+    {
+      "name": "host_discovery",
+      "scanner_id": "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id": "2d3f051c-55ba-11e3-bf43-406186ea4fc5"
+    },
+    {
+      "name": "system_discovery",
+      "scanner_id": "08b69003-5fc2-4037-a479-93b440211c73",
+      "config_id": "bbca7412-a950-11e3-9109-406186ea4fc5"
+    }
+  ]
 }
